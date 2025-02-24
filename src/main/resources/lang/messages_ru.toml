@@ -1,0 +1,34 @@
+[commands]
+alert-usage = "<red>Использование: /alert <сообщение>"
+find-usage = "<red>Использование: /find <игрок>"
+send-usage = "<red>Использование: /send <игрок> <сервер>"
+lobby-usage = "<red>Использование: /lobby"
+reload-usage = "<red>Использование: /reload"
+list-usage = "<red>Использование: /list"
+no-permission = "<red>У вас нет прав для использования этой команды."
+disabled = "<red>Эта команда отключена."
+
+[alerts]
+alert-format = "<red>[ОБЪЯВЛЕНИЕ] <white>{message}"
+
+[find]
+player-not-found = "<red>Игрок не найден!"
+player-location = "<green>Игрок {player} находится на сервере: {server}"
+
+[send]
+player-not-found = "<red>Игрок не найден!"
+server-not-found = "<red>Сервер не найден!"
+player-sent = "<green>Игрок {player} отправлен на сервер {server}"
+you-were-sent = "<green>Вы были отправлены на сервер {server}"
+
+[lobby]
+server-not-found = "<red>Лобби сервер не найден!"
+teleported = "<green>Вы были отправлены в лобби!"
+
+[reload]
+success = "<green>Конфигурация перезагружена!"
+
+[list]
+header = "<green>Игроки онлайн: <white>{count}"
+server-entry = "<blue>[{server}] <white>({count})<green>: {players}"
+empty-server-entry = "<red>[{server}] <white>({count})"

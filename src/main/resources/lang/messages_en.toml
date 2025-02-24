@@ -1,0 +1,34 @@
+[commands]
+alert-usage = "<red>Usage: /alert <message>"
+find-usage = "<red>Usage: /find <player>"
+send-usage = "<red>Usage: /send <player> <server>"
+lobby-usage = "<red>Usage: /lobby"
+reload-usage = "<red>Usage: /reload"
+list-usage = "<red>Usage: /list"
+no-permission = "<red>You do not have permission to use this command."
+disabled = "<red>This command is disabled."
+
+[alerts]
+alert-format = "<red>[ALERT] <white>{message}"
+
+[find]
+player-not-found = "<red>Player not found!"
+player-location = "<green>Player {player} is on server: {server}"
+
+[send]
+player-not-found = "<red>Player not found!"
+server-not-found = "<red>Server not found!"
+player-sent = "<green>Player {player} sent to server {server}"
+you-were-sent = "<green>You have been sent to server {server}"
+
+[lobby]
+server-not-found = "<red>Lobby server not found!"
+teleported = "<green>You have been sent to the lobby!"
+
+[reload]
+success = "<green>Configuration reloaded!"
+
+[list]
+header = "<green>Players online: <white>{count}"
+server-entry = "<blue>[{server}] <white>({count})<green>: {players}"
+empty-server-entry = "<red>[{server}] <white>({count})"

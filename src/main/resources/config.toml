@@ -1,0 +1,30 @@
+# Main configuration file for the Torium plugin.
+
+# Language settings for plugin messages.
+[language]
+default = "en"  # Default language (en or ru).
+
+[alert]
+enable = true # Enable or disable the /alert command.
+
+[find]
+enable = true # Enable or disable the /find command.
+
+[send]
+enable = true # Enable or disable the /send command.
+
+[lobby]
+enable = true # Enable or disable the /lobby command.
+server = "lobby" # Name of the lobby server.
+aliases = ["hub"] # Aliases
+
+[reload]
+enable = true # Enable or disable the /reload command.
+
+[list]
+enable = true # Enable or disable the /list command.
+show-empty-servers = true # Show empty servers in /list (true/false).
+
+# Settings for modifying the proxy ping response.
+[proxy-ping]
+modify-ping = true  # Modify ping to show total players count (true/false).
